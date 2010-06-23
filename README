@@ -1,0 +1,25 @@
+AsusMailLed - Utility for turning on/off or blinking the mail LED
+(c) Copyright 2010 Alexander Sagen (GPL)
+
+########################################
+Requirements
+#######################################
+- Computer, with the asus_laptop kernel module installed
+- Linux
+- ONLY TESTED ON A6JA: YMMV
+
+#########################################
+Installation
+#########################################
+make && sudo make install
+
+This will build and copy the binary to /usr/bin/setaml
+
+
+
+
+#####################################
+Usage
+#####################################
+setaml [on|off|blink {interval(ms) iterations}] 
+
